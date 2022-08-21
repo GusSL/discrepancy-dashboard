@@ -1,9 +1,7 @@
 import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-from helper import get_statistics_as_markdown, upload_csv_file
 
+from helper import get_statistics_as_markdown, upload_csv_file
 from processing import get_discrepancy
 
 # Config
